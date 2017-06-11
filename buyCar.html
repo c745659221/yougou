@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/buycar.css"/>
+		<script src="js/buycar.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/Cookie.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="wrap-header">
+			<div class="header clear4">
+				<div class="header-left left">
+					<a href="#" class="a1  a6">时尚商城</a>
+					<a href="#" class="a3  a7">
+						<strong class="strong"></strong><span>手机优购</span><b></b>
+						<div class="phone_con">
+							<div class="ewm"></div>
+							<div class="app btn" href="#"></div>
+							<div class="android btn" href="#"></div>
+
+							<p class="tip">下载安装 <strong>优购客户端</strong></p>
+						</div>
+					</a>
+				</div>
+				<div class="header-center left" id="left_1">
+					<a href="login.html" target="_blank">登录</a>
+					<a href="regist.html" class="a4" target="_blank">注册</a>
+				</div>
+				<div class="header-right right  right_1">
+					<ul class="list1">
+						<li class="li1">
+							<span>我的优购</span><b></b>
+							<div class="sc">我的收藏</div>
+						</li>
+						<li class="li4">我的订单</li>
+						<li class="li2">
+							<span>公告</span><b></b>
+							<div class="gg">
+								<ul class="notice">
+									<li>
+										<a href="#">运动新风尚 新品5折起</a>
+									</li>
+									<li>
+										<a href="#">摩登男装 秋冬大促 1折起</a>
+									</li>
+									<li>
+										<a href="#">潮靴秀美腿 价比11.11</a>
+									</li>
+									<li>
+										<a href="#">女装初冬热促 爆款2折起</a>
+									</li>
+									<li>
+										<a href="#">库房发货时间调整说明</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="li3">
+							<span>更多</span><b></b>
+							<div class="more">
+								<p>收藏优购</p>
+								<p>帮助</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	    <div class="clear3"></div>
+		
+	    <div id="wrap_buy_logo">
+	    	<div class="buy_logo clear4">
+	    		<a href=""></a>
+	    		<ul class="buy_list">
+	    			<li class="buy_select">我的购物车
+	    				<em></em>
+	    			</li>
+	    			<li>提交订单中心
+	    				<em></em>
+	    			</li>
+	    			<li>成功提交订单
+	    				<em></em>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    </div>
+	
+        <div id="wrap_buy_content">
+        	<div class="buy_content">
+        		<div class="car_empty">
+        			<em></em>
+        			<div class="empty_fr">
+        				<p class="empty_fr_1"> 您的购物车中暂无商品，赶快选择心爱的商品吧！</p>
+        				<p class="empty_fr_2"><a href="index.html" class="gohome_btn">回到首页</a></p>
+        				<p class="empty_fr_3">
+						                您可以：<br>
+						                查看<a href="" class="cblue">我的收藏夹</a><br>
+						                查看<a href="" class="cblue">我已购买的商品</a>
+	           		    </p>
+        			</div>        			
+        		</div>        	    
+        	</div>
+        	
+        	<!--有商品-->
+        	 <div class="buy_have">     	 	
+        	 	<table class="have_table">
+        	 		<tr class="tr1">
+        	 			<td colspan="2"  class="title_name">
+        	 				<input type="checkbox" class="all_change"  checked>全选
+        	 			    <span>商品名称</span>   	 				
+        	 			</td>
+        	 			<td>颜色尺码</td>
+        	 			<td>单价</td>
+        	 			<td>数量</td>
+        	 			<td>小计(元)</td>
+        	 			<td>操作</td>
+        	 		</tr>
+        	 		
+        	 		
+        	 		<tr class="tr2">
+        	 			<td colspan="2"  class="td1">
+        	 				<input type="checkbox" class="cheak_td1" checked>
+        	 				<img src="img/buycar/buy.jpg">   
+        	 				<p class="product_name"></p>
+        	 			</td>
+        	 			<td class="td2">
+        	 				<p class="product_color">颜色：<span></span></p>
+        	 				<p class="product_size">尺码：<span></span></p>   	 				
+        	 			</td>
+        	 			<td>
+        	 				<p class="product_price">599</p>
+        	 			</td>
+        	 			<td>
+        	 				<a href="javascript:;" class="num_min">-</a>
+        	 				<input type="text" value="1" class="product_num" >
+        	 				<a href="javascript:;" class="num_add">+</a>     	 				
+        	 			</td>
+        	 			<td>
+        	 				<p class="product_all_price"></p> 				
+        	 			</td>
+        	 			<td class="last_td">
+        	 				<a href="">移入收藏夹</a>
+        	 				<a href="">删除</a>
+        	 			</td>
+        	 		</tr>
+        	 		
+        	 		
+        	 		
+        	 		<tr class="tr_3">
+        	 			<td colspan="7" class="last_2">
+        	 				<input type="checkbox" checked>全选
+        	 				<a href="">移入收藏夹</a>
+        	 				<a href="">删除</a>
+        	 				
+        	 			</td>
+        	 		</tr>
+        	 		<tr>
+        	 			<td colspan="7" class="last_1">
+        	 				<div class="fl_1">
+        	 					<a href="index.html" class="jx">继续购物</a>
+        	 				    <a href="javascript:;" class="qk">清空购物车</a>
+        	 				</div>
+        	 				<div class="fr_1">
+						        <strong>总计（不含运费 ）</strong>:
+						        <strong class="cgray f16">¥</strong>
+						        <strong class="corg f20">599</strong>
+						        <a href="" class="cart ">去结算</a>
+						    </div>
+        	 				
+        	 			</td>
+        	 		</tr>
+        	 	</table>
+        	 	
+        	 </div>
+        	
+            <div class="pz">
+        	    	<div class="pz_fr">
+        	    		<p class="pz_fr_1">
+				                            购物保障：<i class="icon_zp"></i>100%正品<i class="icon_thh"></i>10天退换货<i class="icon_bcj"></i>10天补差价
+				        </p>
+        	    		<p>优惠券/礼品卡在下一步使用</p>
+        	    		<p><a href="" class="cgray">帮助我们改进购物流程</a></p>
+        	    		
+        	    	</div>
+        	</div>      
+        </div>	
+	
+	     <div id="also_1">
+	     	<div class="also_buy">
+	     		<h4>购买了您购物车中商品的顾客还买了</h4>
+	     		<div class="also_buy_1">
+	     			<p class="ti_1">第<span>1</span>页，共 <u>2</u> 页</p>
+	     			
+	     			<div class="product_lb">     			  
+					    <div class="box5">
+						<!--2-->
+						<ul>					
+							<li>
+								<img src="img/adidas/title/3/2/100494392_01_s.jpg">
+								<a href="">New Balance 新款女子运动鞋WT690LD2</a>
+								<p>¥419<span>¥559</span></p>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/2/100492003_01_s.jpg">
+								<a href="">New Balance 新款男子FRESH FOAM 星际巡航者系列运动鞋</a>
+								<p>¥599<span>¥799</span></p>
+							</li>
+							
+							<li>
+								<img src="img/adidas/title/3/3/100487380_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋MVNGOBK</a>
+								<p>¥513<span>¥819</span></p>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/3/100487322_01_s.jpg">
+								<a href="">New Balance 新款女子跑步鞋WW880EK3</a>
+								<p>¥799<span>¥799</span></p>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/3/100364608_01_s.jpg">
+								<a href="">New Balance 新款 男子运动裤AMP53063-BK（延续款）</a>
+								<p>¥213<span>¥329</span></p>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/3/100487315_01_s.jpg">
+								<a href="">New Balance 新款女子跑步鞋W390CS2</a>
+								<p>¥258<span>¥419</span></p>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/3/100487378_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋M460CY1</a>
+								<p>¥319<span>¥490</span></p>
+							</li>
+							
+							
+						</ul>
+						<!--2-->
+						<!--1-->
+						<ul>
+							<li>
+								<img src="img/adidas/title/3/1/100499919_01_s.jpg">
+								<a href="">New Balance 新款男子 极光夜行 690系列运动鞋</a>
+								<p>¥398<span>¥559</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/1/100491190_01_s.jpg">
+								<a href="">New Balance 新款男子运动鞋M460CG1</a>
+								<p>¥319<span>¥499</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/1/100481423_01_s.jpg">
+								<a href="">New Balance 新款男子运动鞋M520LC3</a>
+								<p>¥348<span>¥559</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/1/100494718_01_s.jpg">
+								<a href="">New Balance 新款 女子 极光夜行 690系列运动鞋</a>
+								<p>¥449<span>¥559</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/1/100487312_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋M790LB6</a>
+								<p>¥389<span>¥599</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/1/100494716_01_s.jpg">
+								<a href="">New Balance 新款 男子 极光夜行 690系列运动鞋</a>
+								<p>¥439<span>¥559</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/2/100499848_01_s.jpg">
+								<a href="">New Balance 新款男子运动鞋M460CB1</a>
+								<p>¥319<span>¥499</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/2/100487309_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋M390CM2</a>
+								<p>¥258<span>¥419</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/2/100487313_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋M790LS6</a>
+								<p>¥368<span>¥599</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/2/100423230_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋M680LT3</a>
+								<p>¥489<span>¥699</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+						</ul>
+						<!--1-->
+
+						<!--2-->
+						<ul>
+							
+							
+							<li>
+								<img src="img/adidas/title/3/2/100494392_01_s.jpg">
+								<a href="">New Balance 新款女子运动鞋WT690LD2</a>
+								<p>¥419<span>¥559</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/2/100492003_01_s.jpg">
+								<a href="">New Balance 新款男子FRESH FOAM 星际巡航者系列运动鞋</a>
+								<p>¥599<span>¥799</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							
+							<li>
+								<img src="img/adidas/title/3/3/100487380_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋MVNGOBK</a>
+								<p>¥513<span>¥819</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/3/100487322_01_s.jpg">
+								<a href="">New Balance 新款女子跑步鞋WW880EK3</a>
+								<p>¥799<span>¥799</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/3/100364608_01_s.jpg">
+								<a href="">New Balance 新款 男子运动裤AMP53063-BK（延续款）</a>
+								<p>¥213<span>¥329</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/3/100487315_01_s.jpg">
+								<a href="">New Balance 新款女子跑步鞋W390CS2</a>
+								<p>¥258<span>¥419</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/3/100487378_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋M460CY1</a>
+								<p>¥319<span>¥490</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							
+							
+						</ul>
+
+						<!--2-->
+						
+						<!--1-->
+
+						<ul>
+							<li>
+								<img src="img/adidas/title/3/1/100499919_01_s.jpg">
+								<a href="">New Balance 新款男子 极光夜行 690系列运动鞋</a>
+								<p>¥398<span>¥559</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/1/100491190_01_s.jpg">
+								<a href="">New Balance 新款男子运动鞋M460CG1</a>
+								<p>¥319<span>¥499</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/1/100481423_01_s.jpg">
+								<a href="">New Balance 新款男子运动鞋M520LC3</a>
+								<p>¥348<span>¥559</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/1/100494718_01_s.jpg">
+								<a href="">New Balance 新款 女子 极光夜行 690系列运动鞋</a>
+								<p>¥449<span>¥559</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/1/100487312_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋M790LB6</a>
+								<p>¥389<span>¥599</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/1/100494716_01_s.jpg">
+								<a href="">New Balance 新款 男子 极光夜行 690系列运动鞋</a>
+								<p>¥439<span>¥559</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/2/100499848_01_s.jpg">
+								<a href="">New Balance 新款男子运动鞋M460CB1</a>
+								<p>¥319<span>¥499</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/2/100487309_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋M390CM2</a>
+								<p>¥258<span>¥419</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/2/100487313_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋M790LS6</a>
+								<p>¥368<span>¥599</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+							<li>
+								<img src="img/adidas/title/3/2/100423230_01_s.jpg">
+								<a href="">New Balance 新款男子跑步鞋M680LT3</a>
+								<p>¥489<span>¥699</span></p>
+								<a href="" class="join">加入购物车</a>
+							</li>
+						</ul>
+						<!--1-->
+					  </div>
+	     		   </div>
+	     		   <span class="also_buy_1_fl  button_1"></span>
+	     		   <span class="also_buy_1_fr  button_1"></span>
+	     		</div>
+	     	</div>
+	     </div>
+	
+	
+	     <div class="also_buy  look">
+	     		<h4>最近浏览过的商品</h4>
+	     		<div class="also_buy_1  look_1">
+	     			<p class="ti_1">第<span>1</span>页，共 <u>1</u> 页</p>	     			
+	     			<div class="product_lb">     			  
+					    <div class="box5">
+						<!--2-->
+						<ul>					
+							<li>
+								<img src="img/adidas/title/3/2/100494392_01_s.jpg">
+								<a href="">New Balance 新款女子运动鞋WT690LD2</a>
+								<p>¥419<span>¥559</span></p>
+								<a href="" class="join">加入购物车</a>
+								
+							</li>						
+						</ul>						
+					  </div>
+	     		   </div>
+	     		   <span class="also_buy_1_fl"></span>
+	     		   <span class="also_buy_1_fr"></span>
+	     		</div>
+	     	</div>
+	     	 
+	     	 
+	     	<div id="lo_footer">
+		   		<p>Copyright © 2011-2014 Yougou Technology Co., Ltd. <a href="">粤ICP备09070608号-4 </a>增值电信业务经营许可证：<a href="">粤 B2-20090203</a></p>
+		   </div>
+	     </div>
+	</body>
+</html>
+
