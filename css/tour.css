@@ -1,0 +1,117 @@
+#wrap-tour{
+	width:100%;
+}
+.tour{
+	width:1200px;
+	margin: 0 auto;
+	background: #fff;
+	height:508px;
+	
+}
+.tour h4{
+	border-bottom:3px solid #808080 ;
+	line-height: 27px;
+	height:27px;
+    font-weight: normal;
+	color: #666;
+	font-size: 18px;
+
+}
+
+.tour_content{
+	width: 100%;
+	border: 1px solid #eee;
+	height:477px;
+	position: relative;
+	
+}
+.tour_content .tour_up{
+	width: 1092px;
+	margin: 20px auto;
+	height:264px;
+    border: 1px solid #eee;
+	
+	
+}
+.tour_content .tour_up span{
+	
+	width: 12px;
+	height:21px;
+	position: absolute;
+	top:127px;
+	cursor: pointer;
+}
+
+.up_left{
+	background: url(../img/tour/1_03.gif);
+	left: 15px;
+}
+
+.up_right{
+	background: url(../img/tour/1_05.gif);
+	right:15px;
+}
+
+.tour_up .show a{
+	width:90px;
+	height:65px;
+	float: left;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+	color: #999999;
+	
+}
+.tour_up .show a img{
+	width:90px;
+	height:40px;
+}
+
+#none{
+	display: none;
+}
+.buy_link li{
+	height:40px;
+	line-height: 40px;
+	width:540px;
+	float: left;
+	border-bottom: 1px dashed #eee;
+	
+	
+}
+.buy_link .fl{
+  float: right;
+	
+}
+.buy_link .fr{
+	float: right;
+	font-size: 14px;
+}
+
+.buy_link dd a{
+	color: #666666;
+	font-weight: bold;
+	font-size: 14px;
+	width:60px;
+	display: block;
+}
+.buy_link dt {
+	
+	width: 521px;
+	height:22px;
+}
+
+.buy_link dt a{
+	display: block;
+	height:20px;
+	line-height: 20px;
+	width:45px;
+	font-size: 14px;
+}
+.tour_content .down .buy_link{
+	margin-left: 40px;
+	height:180px;
+	width:1100px;
+	
+	
+}

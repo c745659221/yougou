@@ -1,0 +1,260 @@
+.reg{
+	height:533px;
+	margin-top: 10px;
+}
+.lo_1{
+	background: #f3f3f3;
+	color: #333;
+}
+.reg_1{
+	background: #333;
+	color: #fff;
+}
+.reg_phone_text1{
+	width:312px;
+	height:38px;
+	border: 1px solid #e3e2e2;
+	margin-bottom: 30px;
+	
+}
+.yzm{
+	height:38px;
+	border: 1px solid #e3e2e2;
+	/*margin-bottom: 5px;*/
+	width:200px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.message{
+	height:38px;
+	border: 1px solid #e3e2e2;
+	margin-bottom: 30px;
+	width:220px;
+	float: left;
+}
+.message span,.reg_ture span{
+	float:left;
+	font-size:12px;
+	width:80px;
+	height:38px;
+	line-height: 38px;
+	text-indent: 10px;
+}
+
+.reg_ture{
+	position: relative;
+}
+.reg_password span,.reg_ture span{
+	width:60px;
+	font-size:12px;
+	height:38px;
+	line-height: 38px;
+	text-indent: 10px;
+	float: left;
+}
+
+
+
+.message .mess_text{
+	height:38px;
+	line-height: 38px;
+	outline: none;
+	width:130px;
+    float: right;
+    border: 0;
+	
+}
+.reg_phone_text1>span{
+	float: left;
+	font-size: 12px;
+	width:70px;
+	height:38px;
+	line-height: 38px;
+	text-indent: 10px;
+	/*background: url(../img/login/jt1.png) no-repeat right center;*/
+	cursor: pointer;
+}
+.reg_phone_text1 .reg_text1{
+	border: 0;
+	outline: none;
+	height: 38px;
+	line-height: 38px;
+	font-size: 12px;
+	width:210px;
+	margin-left: 10px;
+}
+.reg_content{
+	width:314px;
+	margin:0 auto;
+	position: relative;
+	/*display: none;*/
+
+}
+
+.y2{
+	margin-bottom: 20px;
+}
+.mail_content{
+	width:314px;
+	margin:0 auto;
+	position: relative;
+	display: none;
+	
+}
+.y1{
+	margin-bottom: 30px;
+}
+.yzm_text1{
+	border: 0;
+	outline: none;
+	height: 38px;
+	line-height: 38px;
+	font-size: 12px;
+}
+.yzm span{
+	float: left;
+	font-size: 12px;
+	width:65px;
+	height:38px;
+	line-height: 38px;
+	text-indent: 10px;
+}
+.yzm_img{
+	float: right;
+	width:100px;
+	height:38px;
+	line-height: 38px;
+
+	
+}
+
+.yzm_img img{
+	width:100px;
+	height:38px;
+}
+.mess_img{
+	width:73px;
+	height:38px;
+	line-height: 38px;
+	float: right;
+	background: #323232;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	margin-right: 10px;
+	cursor: pointer;
+	
+}
+.reg_password,.reg_ture{
+	width:312px;
+	height:38px;
+	line-height: 38px;
+	border: 1px solid #e3e2e2;
+	/*margin-bottom: 0px;*/
+	overflow: hidden;
+}
+
+.reg_pass1,.reg_pass_ture1{
+	float: left;
+	display: block;
+	height:38px;
+	line-height: 38px;
+	width:230px;
+	border: 0;
+	font-size: 12px;
+	outline: none;
+}
+
+.check{
+	margin-left:50px ;
+	
+}
+.agree{
+	font-size: 12px;
+	color: #666;
+	
+	
+}
+.agree a{
+	color: red;
+}
+.reg_sub{
+	width:314px;
+	height:38px;
+	line-height: 38px;
+	background: #e1373a;
+	text-align: center;
+	color: #fff;
+	border: 0;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.mail_none_small{
+	position: absolute;
+	width:70px;
+	height:80px;
+	border: 1px dashed #e3e2e2;
+	left: 0;
+	top:0;
+	background: #fff;
+	z-index: 100;
+	display: none;
+	
+}
+.mail_none_small  span{
+	width:70px;
+	height:38px;
+	line-height:38px;
+	color: #666;
+	font-size: 12px;
+	display: block;
+	text-indent:10px ;
+	
+	
+}
+.mail_none_small  .phone_1{
+	background: url(../img/login/jt1.png) no-repeat right center;
+	cursor: pointer;
+	
+}
+.reg_phone_text1>span i{
+	width: 10px;
+	height:10px;
+	float: right;
+	background: url(../img/login/jt1.png) no-repeat ;
+	margin-top: 15px;
+}
+.phone_1 i{
+	width: 10px;
+	height:10px;
+	float: right;
+	background: url(../img/login/jt1.png) no-repeat ;
+	margin-top: 15px;
+}
+
+/*.span1{
+	height:25px;
+	line-height:25px;
+	text-indent:20px;
+	float: left;
+	color: red;
+	width:314px;
+	font-size: 12px;
+	background: url(../img/login/err.png) no-repeat left center;
+	
+}*/
+
+.span2{
+	height:30px;
+	line-height:30px;
+	text-indent:20px;
+	float: left;
+	color: red;
+	width:314px;
+	font-size: 12px;
+	background: url(../img/login/err.png) no-repeat left center;
+	visibility: hidden;
+	
+}

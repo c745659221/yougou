@@ -1,0 +1,399 @@
+#wrap-content{
+	width:100%;
+	background: #F8F8F8;
+}
+.content{
+	width:1200px;
+	margin: 0 auto;
+	margin-bottom: 68px;
+}
+.content_hot {
+	width:100%;
+	height:563px;
+	margin-bottom: 40px;
+}
+
+.content_title{
+	border-bottom: 3px solid #000000;
+	height:39px;
+	line-height: 39px;
+}
+.content_title h4{
+	color: #5a5a5a;
+	font-weight: normal;
+	font-size: 18px;
+	float: left;
+	height:39px;
+	line-height: 39px;
+
+}
+.content_title h4 span{	
+	color:#999;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.content_title a{
+	float: right;
+	font-size: 17px;
+	color:#888;
+	margin-right: 15px;
+	
+}
+
+.content_down{
+	border: 1px solid #d2d2d2;
+	height:530px;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+	
+	
+}
+
+.content_img{
+	width:100%;
+	padding: 26px 26px 0 26px;
+}
+.content_list li{
+	float: left;
+	margin-right: 24px;
+}
+
+
+.content_down .left,.content_down .right{
+	width:20px;
+	height:55px;
+	position: absolute;
+	bottom:55px;
+	cursor: pointer;	
+}
+
+.content_down .left{	
+	background: url(../img/content/left.png) no-repeat 0 0;
+	left: 26px;
+}
+.content_down .right{
+	
+	background: url(../img/content/right.png) no-repeat 0 0 ;
+	right:26px;
+	
+}
+
+ .content_lb{
+	
+	width:1108px;
+	height:136px;
+	overflow: hidden;
+	padding-top: 40px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+.content_lb_list_fu{
+	
+	width:4432px;
+	height:120px;
+	margin: 0 auto;
+	position: absolute;
+	left:-1108px;
+    
+}
+
+.content_lb_list_fu .content_lb_list1,
+.content_lb_list_fu .content_lb_list2,
+.content_lb_list_fu .content_lb_list3{
+	
+	width:1108px;
+	height:120px;
+	float: left;
+}
+
+.content_lb_list_fu .content_lb_list3 li{
+	width:1108px;
+	height:50px;
+	float: left;
+	background: #E7E7E7;
+	margin-top: 10px;
+	
+}
+.content_lb_list1 li,.content_lb_list2 li{
+	float: left;
+	width:110px;
+	height:63px;
+	text-align: center;
+}
+
+.content_sport{
+	
+	width: 100%;
+	margin-bottom: 32px;
+}
+.tb_title{
+	width: 100%;
+	height:34px;
+	border-bottom: 3px solid #000000;
+}
+.tb_title h4{
+	color: #000;
+	font-weight: bolder;
+	font-size:18px ;
+	height:34px;
+	line-height: 34px;
+	width: 200px;
+	float: left;
+	cursor: pointer;
+	
+}
+.tb_title h4 span{
+	
+	color: #000000;
+	font-size: 14px;
+	
+}
+.tb_title .fr{
+	width:118px;
+	height:34px;
+	float: right;
+	font-size: 13px;
+	color: #fff;
+	background: #000;
+	line-height:34px;
+	text-align: center;
+	
+}
+
+
+.sport_down{
+	width: 100%;
+	border: 1px solid #d2d2d2;
+	height:432px;
+	padding: 24px 0;
+	background: #fff;
+	
+}
+.sport_down_left{
+	width: 196px;
+	height:434px;
+	padding: 0 15px;
+	background: #fff;
+	float: left;
+}
+.sport_down_left .lt{
+	width:200px;
+	height:67px;
+	background: url(../img/content/abg.jpg);
+}
+
+.sport_down_left .lt a{
+	cursor: pointer;
+	width:85px;
+	height:67px;
+	
+	
+}
+.sport_down_left .lt a:first-child{
+	float: left;
+}
+.sport_down_left .lt a:last-child{
+	float: right;
+}
+
+.left_list{
+	width: 200px;
+	margin-top: 21px;
+}
+.left_list li{
+	float: left;
+	width: 100px;
+	height:72px;
+	text-align: center;
+	line-height: 72px;
+}
+.sport_down_center{
+	width:360px;
+	height:432px;
+	border: 1px solid #d2d2d2;
+	float: left;
+	cursor: pointer;
+}
+.sport_down_right{
+	width:552px;
+	float: right;
+	padding: 0 26px 0 22px;
+	overflow: hidden;
+	
+}
+.sport_down_right a{
+	float: left;
+	width:180px;
+	height:215px;
+
+}
+.sport_down_right a:first-child,
+.sport_down_right a:nth-child(2),
+.sport_down_right a:nth-child(3){
+	border-bottom: 1px solid #9b9b9b;
+	
+}
+.sport_down_right a:nth-child(4),
+.sport_down_right a:nth-child(5),
+.sport_down_right a:nth-child(6){
+	border-bottom: 2px solid #9b9b9b;
+	border-top: 2px solid #dbdbdb;
+	
+	
+}
+.sport_down_left .nxg{
+	background: url(../img/content/d62afddba1d641ea9d5493a6d7b7a4f9.jpg);
+}
+
+.sport_down_left .outdoor{
+	background: url(../img/content/outdoor/ec3a95ef0cd64c8e8e86de07b69fd66c.jpg);
+	
+}
+.sport_down_left .outdoor a{
+	width:55px;
+	float: left;
+	margin-left: 10px;
+	
+}
+
+.sport_down_left .seoul{
+	background: url(../img/content/seoul/c968e60bc8d94c8d9ef4958a91625e82.jpg);
+	
+	
+}
+.sport_down_left .seoul a{
+	width:55px;
+	float: left;
+	margin-left: 10px;
+	
+}
+.sport_down_left .man{
+	background: url(../img/content/man/1f98b036fac54fc2922bc14e00ac7139.jpg);
+	
+}
+.sport_down_left .clothes{
+	background: url(../img/content/clothes/619915d188bd4f71a157c43236b7017f.jpg);
+	
+}
+.sport_down_left .clothes a{
+	width:55px;
+	float: left;
+	margin-left: 10px;
+	
+}
+.sport_down_left .chidren{
+	background: url(../img/content/chirdren/4710e00d26a246e9abbac171fdfdc93f.jpg);
+	
+}
+
+.sport_down_left .chidren a{
+	width:55px;
+	float: left;
+	margin-left: 10px;
+	
+}
+.content_sell .tb_title h5{
+	color:#666666;
+	font-size: 16px;
+	font-weight: normal;
+}
+.content_sell .sell{
+	width: 100%;
+	height:361px;
+	border: 1px solid #D2D2D2;
+	border-top:0;
+	
+	
+}
+.sell .sell_list {
+	width:214px;
+	border-right: 1px solid #D2D2D2;
+	margin-right: 13px;
+	float: left;
+	
+}
+.content_sell .sell .sell_list li{
+	width:214px;
+	height:41px;
+	line-height: 41px;
+	border-bottom: 1px solid #D2D2D2;
+	font-size: 16px;
+	text-indent: 15px;
+	
+	
+}
+.content_sell .sell .sell_list li a{
+
+    font-size: 14px;
+}
+	
+.change{
+	background: url(../img/jt.png) no-repeat 180px center black;
+
+}
+.change a{
+	color: #fff;
+	
+}
+
+.product1 dl{
+	float: left;
+	border: 1px solid #D2D2D2;
+	margin-top:20px ;
+	width: 230px;
+	height:240px;
+	margin-right: 10px;
+}
+.product1 dl dt img{
+	width: 230px;
+	height:240px;
+	
+	}
+.product1 dl dt {
+	position: relative;
+	cursor: pointer;
+}
+.product1  .time{
+	position: absolute;
+	bottom:-5px;
+	left: -1px;
+	width:232px;
+	height:18px;
+	background: #F0A1A1;
+	font-size: 12px;
+	color: #fff;
+	text-indent: 5px;
+	
+}
+.product1 dd{
+	margin-top: 5px;
+}
+.product1 dd a{
+	color: #7e7c7d;
+	
+}
+.product1 dd p strong{
+	
+	color: red;
+	
+}
+.product1 dd p span{
+	
+	font-size: 12px;
+	text-decoration: line-through;
+	margin-left: 5px;
+	color: #ababab;
+}
+.product #block{
+	display: none;
+}
+
+.product .dm {
+	background: #bbb;
+}
+.product .dm span{
+	float: right;
+}
