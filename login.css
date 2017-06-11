@@ -1,0 +1,240 @@
+.a1{
+	margin-left: 100px;
+	background: url(../img/header/bg.jpg) repeat-x;
+	
+}
+.header-center{
+	margin-left: 340px;
+}
+.header-center .login_a4{
+
+	display: block;
+	width:110px;
+	margin-right: 10px;
+	height: 12px;
+	text-align: left;
+}
+.header-right{
+	float: left;
+}
+
+#login_logo{
+	
+	width:100%;
+	height:72px;
+}
+.lo_login{
+	width:1000px;
+	margin:0 auto;
+	/*border: 1px solid pink;*/
+	height:72px;
+	
+}
+.lo_login a{
+	float: left;
+	margin-top:14px;
+	height:42px;
+	line-height: 42px;
+	font-size: 16px;
+	font-family: "宋体";
+}
+.login_lo1{
+	display: block;
+	width:183px;
+	border-right: 1px solid #e6e6e6;
+	background: url(../img/login/signin-register-logo.png) no-repeat 0 center;
+}
+.login_font{
+	margin-left: 30px;
+}
+#login_content{
+	width:100%;
+	height:553px;
+	background: url(../img/login/a8c6023508a242039dc31cd5be30cc44.jpg)  center top;
+	
+	
+}
+.lo_content{
+	width:380px;
+	height:452px;
+	background: #fff;
+	margin-top: 50px;
+    float: right;
+    margin-right: 148px;
+}
+
+.lo_title{
+	margin:26px 17px 0 17px;
+	height:42px;
+	width:346px;
+	border-bottom: 1px solid #f3f3f3;
+	margin-bottom: 30px;
+}
+.lo_title a{
+	float: left;
+	width:125px;
+	height:42px;
+	line-height: 45px;
+	text-align: center;
+	margin-right: 7px;
+}
+.lo_1{
+	
+	background: #333;
+	color: #fff;
+	margin-left: 56px;
+	
+}
+.reg_1{
+	background: #f3f3f3;
+	color: #333;
+}
+.lo_main_con{
+	width: 314px;
+	padding: 0 35px;
+}
+.lo_form_text,.lo_form_reg{
+	width:312px;
+	height:38px;
+	line-height: 38px;
+	border: 1px solid #e3e2e2;	
+	margin-bottom: 30px;
+}
+
+.lo_form_text i{
+	display: block;
+    float: left;
+    height: 36px;
+    overflow: hidden;
+    width: 48px;
+    background: url(../img/login/icon_sig_reg.png) no-repeat -168px -27px;
+}
+.lo_form_text .lo_text,.lo_form_reg .lo_password{
+	
+	height:36px;
+	line-height: 36px;
+	border: 0;
+	font-size: 12px;
+	width:235px;
+	margin-left: 20px;
+	outline: none;
+}
+.lo_form_reg i{
+	display: block;
+    float: left;
+    height: 36px;
+    overflow: hidden;
+    width: 48px;
+    background: url(../img/login/icon_sig_reg.png) no-repeat -168px -61px;
+}
+
+.lo_form p{
+	float: right;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.lo_form p a{
+	text-decoration: underline;
+	color: #666;
+	
+}
+.lo_form{
+	width:314px;
+	overflow: hidden;
+}
+.lo_submit{
+	width:314px;
+	height:42px;
+	line-height: 42px;
+	color: #fff;
+	background: #e1373a;
+	text-align: center;
+	font-size: 16px;
+	border: 0;
+}
+.lo_form>span{
+	color: #999;
+	height:43px;
+	line-height: 43px;
+	font-size: 12px;
+	text-align: center;
+	display: block;
+}
+.lo_form .lo_list{
+	width:314px;
+	height:44px;
+	/*padding: 7px 0;*/
+	margin-left: 8px;
+}
+.lo_form .lo_list li{
+	
+	height:34px;	
+	float: left;
+	width:36px;
+	line-height: 34px;
+	margin: 0 12px;
+	
+	
+}
+
+.lo_form .lo_list li:nth-child(1){
+	
+	margin-left: ;
+	background: url(../img/login/icon_sig_reg.png) no-repeat -37px -21px;
+	
+}
+.lo_form .lo_list li:nth-child(2){
+	
+	background: url(../img/login/icon_sig_reg.png) no-repeat -73px -21px;
+	
+}
+.lo_form .lo_list li:nth-child(3){
+	
+	background: url(../img/login/icon_sig_reg.png) no-repeat -110px -22px;
+	
+}
+.lo_form .lo_list li:nth-child(4){
+	
+	background: url(../img/login/icon_sig_reg.png) no-repeat -37px -57px;
+	
+}
+.lo_form .lo_list li:nth-child(5){
+	
+	background: url(../img/login/icon_sig_reg.png) no-repeat -73px -57px;
+	
+}
+
+.lo_form .lo_list li a{
+	float: left;
+	height:12px;
+	border-right: 1px solid #e5e1e5;
+	width:36px;
+	margin: 10px 10px;
+	
+}
+.lo_form .lo_list li:nth-child(5) a{
+	border: 0;
+}
+#lo_footer p,#lo_footer p a{
+	height: 60px;
+	line-height: 60px;
+	color: #aaa;
+	font-size: 12px;
+	font-family: arial,"宋体";
+}
+#lo_footer{
+	text-align: center;
+}
+.span1{
+	height:25px;
+	line-height:25px;
+	text-indent:20px;
+	float: left;
+	color: red;
+	width:314px;
+	font-size: 12px;
+	background: url(../img/login/err.png) no-repeat left center;
+	display: none;
+}
